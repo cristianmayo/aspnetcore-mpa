@@ -11,6 +11,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{247F9C5A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{027FF7FE-CED0-4243-8856-52860D110027}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pipelines", "pipelines", "{50CDB54A-41DB-4F16-A52F-BA19956B4491}"
+	ProjectSection(SolutionItems) = preProject
+		pipelines\azure-pipelines_build-development.yml = pipelines\azure-pipelines_build-development.yml
+		pipelines\azure-pipelines_build-feature.yml = pipelines\azure-pipelines_build-feature.yml
+		pipelines\azure-pipelines_build-fixes.yml = pipelines\azure-pipelines_build-fixes.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "config", "config", "{50B4EE87-5F39-4DD6-88B6-41414F7EA35F}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{0E89BE56-F5D5-4997-A5D1-490FB5F9BF7A}"
+	ProjectSection(SolutionItems) = preProject
+		license = license
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
